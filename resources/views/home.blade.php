@@ -9,6 +9,8 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -68,7 +70,7 @@
                 <div class="title m-b-md">
                     Weather App
                 </div>
-                <weather-component></weather-component>
+                <city-component></city-component>
             </div>
         </div>
         <script src="{{ asset('js/app.js')}}"></script>
